@@ -21,6 +21,8 @@ Goals of this Project
 ====================================
 
 One of the main issue across the iOS development ecosystem is the lack of a well stablished architecture, from small to big applications.  
+There is also a huge gap of Repositories/Projects/Samples that show how an app should look like, from a architectural point of view. 
+
 You can see that when:
 
 * You have mixed Logic with UI.

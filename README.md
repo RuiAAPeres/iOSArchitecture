@@ -35,7 +35,7 @@ How to use this Project
 ====================================
 
 Well, this is up to you. If you find it's a bit difficult to use it, understand it, please let me know, that I will try to assist the best I can. 
-Start by adding some breakpoints and keep pushing until you understand what's going on
+Start by adding some breakpoints and keep pushing until you understand what's going on. If you happen to use this architecture in one of your apps, let me know. :) 
 
 ------------------------------------
 Suggestions

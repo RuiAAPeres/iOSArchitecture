@@ -32,11 +32,10 @@ You can see that when:
 
 Each project has it's own demons, so what I want with this sample project, is a way for iOS developers to have a reference for what they should **always** try to achieve:
 
-* Thrive for small classes.
+* Thrive for small, simple, clean, **understandable** and maintainable classes.
 * Respect the Single Responsability Principle.
 * Respect the DRY Principle.
 * Respect the 4 OOP principles: Encapsulation, Abstraction, Inheritance, Polymorphism.
-* Thrive for simple, clean and maintanable classes.
 * **Create methods that do one and only one thing** (this is specially useful for Unit Testing).
 * Create meaningful names for your methods, classes, variables, properties. **This is one of the most underestimate part of coding.**
 

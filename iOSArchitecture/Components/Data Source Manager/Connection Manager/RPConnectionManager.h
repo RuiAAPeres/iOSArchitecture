@@ -11,6 +11,6 @@
 
 @interface RPConnectionManager : NSObject
 
-+ (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock;
++ (void)yahooSportsFeedFromServerWithCompletion:(RPYahooSportsCompletionBlock)completionBlock;
 
 @end

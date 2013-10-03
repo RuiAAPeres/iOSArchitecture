@@ -11,6 +11,6 @@
 
 @interface RPParsingManager : NSObject
 
-+ (void)yahooSportsFeed:(NSData *)feedsData completion:(RPYahooSportsCompletionBlock)completionBlock;
++ (void)yahooSportsParseFeed:(NSData *)feedsData completion:(RPYahooSportsCompletionBlock)completionBlock;
 
 @end

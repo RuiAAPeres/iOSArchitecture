@@ -15,26 +15,32 @@ static NSString *const kYahooSportsEndPoint = @"http://news.yahoo.com/rss/sports
 
 #pragma mark - Public Connection Methods
 
-+ (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock
++ (void)yahooSportsFeedFromServerWithCompletion:(RPYahooSportsCompletionBlock)completionBlock
 {
     NSURL *yahooSportsEndpointURL = [NSURL URLWithString:kYahooSportsEndPoint];
-    NSURLRequest *yahooSportsRequest = [[NSURLRequest alloc] initWithURL:yahooSportsEndpointURL];
-    NSURLSession *yahooSportsURLSession = [[NSURLSession alloc] init];
+    NSURLSession *yahooSportsURLSession = [NSURLSession sharedSession];
     
-    [yahooSportsURLSession dataTaskWithRequest:yahooSportsRequest completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
+    [[yahooSportsURLSession dataTaskWithURL:yahooSportsEndpointURL completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
     {
         if (error)
         {
-            // TODO: This would be an appropriate place to use a Factory Class to translate an NSError's code into something readable for the user.
-            //       The UIViewController shouldn't care about what an NSError actually is, but inform the user of what happened with a proper title/
-            //        message
+            /* 
+                TODO: This would be an appropriate place to use a
+                Factory Class to translate an NSError's code into something 
+                readable for the user.
+                The UIViewController shouldn't care about what an NSError actually is, but inform the user
+                of what happened with a proper error message.
+             */
             completionBlock(nil,error);
         }
         else
         {
-            [RPParsingManager yahooSportsFeed:data completion:completionBlock];
+            [RPParsingManager yahooSportsParseFeed:data completion:completionBlock];
         }
-    }];
+   
+    }] resume];
+    
+    
 }
 
 @end

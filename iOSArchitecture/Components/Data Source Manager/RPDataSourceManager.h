@@ -11,11 +11,11 @@
 
 /**
  The goal of the class is to act as a facade. When there is a need to get a sports feed,
- based on certain rulles (offline/online, mock/real data) we will choose the right class for the
+ based on certain rules (offline/online, mock/real data) we will choose the right class for the
  job
  */
 @interface RPDataSourceManager : NSObject
 
-+ (void)sportsFeedWithCompletionBlock:(RPYahooSportsCompletionBlock)completionBlock;
++ (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock;
 
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "RPAppDelegate.h"
+#import "RPDataSourceManager.h"
+#import "RPSportsFeedViewController.h"
 
 @implementation RPAppDelegate
 
@@ -16,6 +18,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    RPSportsFeedViewController *sportsFeedController = [[RPSportsFeedViewController alloc] initWithNibName:nil bundle:nil];
+    [[self window] setRootViewController:sportsFeedController];
+    
     return YES;
 }
 

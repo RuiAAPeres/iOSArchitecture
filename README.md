@@ -43,15 +43,15 @@ Each project has it's own demons, so what I want with this sample project, is a 
 How to use this Project
 ====================================
 
-Well, this is up to you. If you find it's a bit difficult to use it, understand it, please let me know, that I will try to assist the best I can. 
-Start by adding some breakpoints and keep pushing until you understand what's going on. If you happen to use this architecture in one of your apps, let me know. :) 
+Well, this is up to you. Start by adding some breakpoints and keep pushing until you understand what's going on. If you find it's a bit difficult to use/understand it, send me an email, or open an issue, and I will try to assist the best I can. 
+If you happen to use this architecture in one of your apps, just flagg it for me. :) 
 
 ------------------------------------
 Suggestions
 ====================================
 
-I am more than happy to change the current structure of this project, based on people suggestions. The goal here is to improve the way we code.
-So please, if you think that something is fundamentaly wrong, or that could be improve, **please** let me know.
+I am more than happy to change the current structure of this project, based on people suggestions. **he goal here is to improve the way we code**.
+So please, if you think that something is fundamentaly wrong, or that could be improve, let me know.
 
 -------
 License

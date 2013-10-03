@@ -6,7 +6,7 @@ Sample project showing a common architecture I use when creating iOS Projects.
 Requirements
 ============
 
-You will need (cocoapods)[http://cocoapods.org/] in order to build this project 
+You will need [cocoapods](http://cocoapods.org/) in order to build this project 
 
 ------------------------------------
 Goals of this Project

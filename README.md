@@ -17,8 +17,8 @@ You can see that when:
 
 * You have mixed Logic with UI.
 * You cannot see the boundaries between the Controller and the Model (MVC)
-* Your UIViewControllers suprass the 300 lines (From my experience when a UIViewController passes that frontier, normally something could be done better)
-* It's not clear for you where things are and how to you use them.
+* Your `UIViewControllers` suprass the 300 lines (From my experience when a `UIViewController` passes that frontier, normally something could be done better)
+* It's not clear for you where things are and how to use them.
 
 Each project has it's own demons, so what I try to achieve with this sample project, is a way for iOS developers to have a reference for what they should **always** try to achieve:
 

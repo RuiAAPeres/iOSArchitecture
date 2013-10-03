@@ -3,6 +3,14 @@ iOSArchitecture
 
 Sample project showing a common architecture I use when creating iOS Projects.
 
+The project itself is quite simple:
+
+* Getting Yahoo's Sports feed from their XML RSS.
+* Parse it
+* Returning the results to the `UIViewController`, where then they can be showed.
+
+There are many ways of doing it, although I think mine bring some advantages.
+
 Requirements
 ============
 

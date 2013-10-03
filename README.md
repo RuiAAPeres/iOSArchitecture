@@ -50,7 +50,7 @@ If you happen to use this architecture in one of your apps, just flagg it for me
 Suggestions
 ====================================
 
-I am more than happy to change the current structure of this project, based on people suggestions. **he goal here is to improve the way we code**.
+I am more than happy to change the current structure of this project, based on people suggestions. **The goal here is to improve the way we code**.
 So please, if you think that something is fundamentaly wrong, or that could be improve, let me know.
 
 -------

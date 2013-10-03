@@ -30,7 +30,7 @@ You can see that when:
 * Your `UIViewControllers` suprass the 300 lines (From my experience when a `UIViewController` passes that frontier, normally something could be done better)
 * It's not clear for you where things are and how to use them.
 
-Each project has it's own demons, so what I try to achieve with this sample project, is a way for iOS developers to have a reference for what they should **always** try to achieve:
+Each project has it's own demons, so what I want with this sample project, is a way for iOS developers to have a reference for what they should **always** try to achieve:
 
 * Thrive for small classes.
 * Respect the Single Responsability Principle.

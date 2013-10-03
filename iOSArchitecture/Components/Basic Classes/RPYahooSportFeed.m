@@ -11,8 +11,8 @@
 @interface RPYahooSportFeed ()
 
 // Since "description" is an NSObject's class method, to avoid ambiguity,
-// It was decided to add the "feed" word behind.
-// After that, it was added the "feed" prefix before each other
+// It was decided to add the "feed" prefix.
+// After that, it was added the "feed" prefix on each other
 // property to make it consistent
 
 @property(nonatomic,strong)NSString *feedTitle;

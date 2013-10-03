@@ -1,8 +1,7 @@
 iOSArchitecture
 ===============
 
-Sample project showing a common architecture I use when creating iOS Projects
-
+Sample project showing a common architecture I use when creating iOS Projects.
 
 Requirements
 ============
@@ -17,6 +16,7 @@ One of the main issue across the iOS development ecosystem is the lack of a well
 You can see that when:
 
 * You have mixed Logic with UI.
+* You cannot see the boundaries between the Controller and the Model (MVC)
 * Your UIViewControllers suprass the 300 lines (From my experience when a UIViewController passes that frontier, normally something could be done better)
 * It's not clear for you where things are and how to you use them.
 

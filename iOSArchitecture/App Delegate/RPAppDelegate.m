@@ -7,7 +7,6 @@
 //
 
 #import "RPAppDelegate.h"
-#import "RPDataSourceManager.h"
 #import "RPSportsFeedViewController.h"
 
 @implementation RPAppDelegate

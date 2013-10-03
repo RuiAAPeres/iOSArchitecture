@@ -51,7 +51,7 @@ Suggestions
 ====================================
 
 I am more than happy to change the current structure of this project, based on people suggestions. **The goal here is to improve the way we code**.
-So please, if you think that something is fundamentaly wrong, or that could be improve, let me know.
+So please, if you think that something is fundamentaly wrong, or that could be improved, open an issue, or make a pull request.
 
 -------
 License

@@ -61,7 +61,7 @@
 		CA6561E917FDDF3E00285E4A /* RPDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPDataSourceManager.m; sourceTree = "<group>"; };
 		CA6561EC17FDE07300285E4A /* RPConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPConnectionManager.h; sourceTree = "<group>"; };
 		CA6561ED17FDE07300285E4A /* RPConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPConnectionManager.m; sourceTree = "<group>"; };
-		CA6561F017FDE0C300285E4A /* RPCommonDataSourceManagerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPCommonDataSourceManagerConstants.h; sourceTree = "<group>"; };
+		CA6561F017FDE0C300285E4A /* RPCommonDataSourceManagerDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPCommonDataSourceManagerDefinitions.h; sourceTree = "<group>"; };
 		CA6561F217FDE30000285E4A /* RPParsingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPParsingManager.h; sourceTree = "<group>"; };
 		CA6561F317FDE30000285E4A /* RPParsingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPParsingManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -233,7 +233,7 @@
 		CA6561EF17FDE0AD00285E4A /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				CA6561F017FDE0C300285E4A /* RPCommonDataSourceManagerConstants.h */,
+				CA6561F017FDE0C300285E4A /* RPCommonDataSourceManagerDefinitions.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RPCommonDataSourceManagerConstants.h"
+#import "RPCommonDataSourceManagerDefinitions.h"
 
 @interface RPParsingManager : NSObject
 

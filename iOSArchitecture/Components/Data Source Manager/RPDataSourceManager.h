@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RPCommonDataSourceManagerConstants.h"
+#import "RPCommonDataSourceManagerDefinitions.h"
 
 /**
  The goal of the class is to act as a facade. When there is a need to get a sports feed,

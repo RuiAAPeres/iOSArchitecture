@@ -28,6 +28,14 @@ Each project has it's own demons, so what I try to achieve with this sample proj
 * Respect the 4 OOP principles: Encapsulation, Abstraction, Inheritance, Polymorphism.
 * Thrive for simple, clean and maintanable classes.
 * **Create methods that do one and only one thing** (this is specially useful for Unit Testing).
+* Create meaningful names for your methods, classes, variables, properties. **This is one of the most underestimate part of coding.**
+
+------------------------------------
+How to use this Project
+====================================
+
+Well, this is up to you. If you find it's a bit difficult to use it, understand it, please let me know, that I will try to assist the best I can. 
+Start by adding some breakpoints and keep pushing until you understand what's going on
 
 ------------------------------------
 Suggestions

@@ -57,9 +57,9 @@ So please, if you think that something is fundamentaly wrong, or that could be i
 Versions
 ====================================
 
-version 1.1
+**1.1**
 
-The access to the Model, by the UIViewControllers, are now made by a Interactor object. Instead of returning a reference to the RPDataSourceManager Class reference (since we are using class methods), we return an abstract Class that conforms to a given protocol. You can see this see this strategy applied [here](http://www.confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years#!), the video is present by Robert Martin aka Uncle Bob. 
+The access to the Model, by the `UIViewControllers`, are now made by a Interactor object. Instead of returning a reference to the `RPDataSourceManager` Class reference (since we are using class methods), we return an abstract Class that conforms to a given protocol. You can see this see this strategy applied [here](http://www.confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years#!), the video is present by [Robert Martin](http://en.wikipedia.org/wiki/Robert_Cecil_Martin) aka Uncle Bob. 
 
 -------
 License

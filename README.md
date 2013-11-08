@@ -53,6 +53,14 @@ Suggestions
 I am more than happy to change the current structure of this project, based on people's suggestions. **The goal here is to improve the way we code**.
 So please, if you think that something is fundamentaly wrong, or that could be improved, open an issue, or create a pull request.
 
+------------------------------------
+Versions
+====================================
+
+version 1.1
+
+The access to the Model, by the UIViewControllers, are now made by a Interactor object. Instead of returning a reference to the RPDataSourceManager Class reference (since we are using class methods), we return an abstract Class that conforms to a given protocol. You can see this see this strategy applied [here](http://www.confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years#!), the video is present by Robert Martin aka Uncle Bob. 
+
 -------
 License
 =======

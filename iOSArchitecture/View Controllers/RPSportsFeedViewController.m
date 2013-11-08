@@ -7,7 +7,13 @@
 //
 
 #import "RPSportsFeedViewController.h"
-#import "RPDataSourceManager.h"
+#import "RPInteractor.h"
+#import "RPSportBoundaryProtocol.h"
+
+@interface RPSportsFeedViewController ()
+
+
+@end
 
 @implementation RPSportsFeedViewController
 
@@ -15,18 +21,19 @@
 {
     [super viewDidAppear:animated];
     
-    [RPDataSourceManager yahooSportsFeedWithCompletion:^(NSArray *sportsFeeds, NSError *error)
-    {
-        if (error)
-        {
-            // TODO: Handle the error;
-        }
-        else
-        {
-            // TODO: Handle a successful eresult;
-        }
-        
-    }];
+    Class sportsFeedManager = (Class <RPSportsBoundaryProtocol>)[RPInteractor sportsFeedManager];
+    [sportsFeedManager yahooSportsFeedWithCompletion:^(NSArray *sportsFeeds, NSError *error)
+     {
+         if (error)
+         {
+             // TODO: Handle the error;
+         }
+         else
+         {
+             // TODO: Handle a successful result;
+         }
+         
+     }];
 }
 
 

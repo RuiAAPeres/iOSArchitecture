@@ -7,15 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RPCommonDataSourceManagerDefinitions.h"
+#import "RPSportBoundaryProtocol.h"
 
 /**
  The goal of the class is to act as a facade. When there is a need to get a sports feed,
  based on certain rules (offline/online, mock/real data) we will choose the right class for the
  job
  */
-@interface RPDataSourceManager : NSObject
-
-+ (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock;
+@interface RPDataSourceManager : NSObject <RPSportBoundaryProtocol>
 
 @end

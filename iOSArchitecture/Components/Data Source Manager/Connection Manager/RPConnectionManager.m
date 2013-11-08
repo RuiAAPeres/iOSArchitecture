@@ -38,9 +38,7 @@ static NSString *const kYahooSportsEndPoint = @"http://news.yahoo.com/rss/sports
             [RPParsingManager yahooSportsParseFeed:data completion:completionBlock];
         }
    
-    }] resume];
-    
-    
+    }] resume];    
 }
 
 @end

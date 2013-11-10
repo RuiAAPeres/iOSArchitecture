@@ -43,7 +43,7 @@ Each project has it's own demons, so what I want with this sample project, is a 
 How to use this Project
 ====================================
 
-Well, this is up to you. Start by adding some breakpoints and keep pushing until you understand what's going on. If you find it's a bit difficult to use/understand it, send me an email, or open an issue, and I will try to assist the best I can. 
+Start by adding some breakpoints and keep pushing until you understand what's going on. If you find it's a bit difficult to use/understand it, send me a [tweet](https://twitter.com/XSody), or open an issue, and I will try to assist the best I can. 
 If you happen to use this architecture in one of your apps, just flag it for me. :) 
 
 ------------------------------------
@@ -51,7 +51,7 @@ Suggestions
 ====================================
 
 I am more than happy to change the current structure of this project, based on people's suggestions. **The goal here is to improve the way we code**.
-So please, if you think that something is fundamentaly wrong, or that could be improved, open an issue, or create a pull request.
+So please, if you think that something is fundamentaly wrong, or that could be improved, open an issue, create a pull request or [just let me know](https://twitter.com/XSody).
 
 ------------------------------------
 Versions
@@ -59,7 +59,7 @@ Versions
 
 **1.2**
 
-An object of type `id <RPSportsBoundaryProtocol>` can now the be injected into the `RPSportsFeedViewController` (you can see this as he complies to the `RPDataSourceManagerInjection` protocol). By default it will be used `RPDataSourceManager`. This is specially useful for Unit Testing, as you can inject a mock one. I also added an example of how to do it on the test suite (check the `RPSportsFeedViewControllerTesting.m` and `RPMockDataSourceManager`). The `RPDataSourceManager` is now used as an object, as well, versus a class (as it previously was).
+An object of type `id <RPSportsBoundaryProtocol>` can now the be injected into the `RPSportsFeedViewController` (you can see this as he complies to the `RPDataSourceManagerInjection` protocol). By default it will be used `RPDataSourceManager`. This is specially useful for Unit Testing, as you can inject a mock one. I also added an example of how to do it on the test suite (check the `RPSportsFeedViewControllerTesting.m` and `RPMockDataSourceManager`). The `RPDataSourceManager` is now used as an object versus a class (as it was previously), although I am still weighting the pros and cons.
 
 **1.1**
 

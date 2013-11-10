@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "RPCommonDataSourceManagerDefinitions.h"
 
-@protocol RPSportBoundaryProtocol <NSObject>
+@protocol RPSportsBoundaryProtocol <NSObject>
 
 @required
 
-+ (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock;
+- (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock;
 
 @end

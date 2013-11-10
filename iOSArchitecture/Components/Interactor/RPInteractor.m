@@ -9,13 +9,13 @@
 #import "RPInteractor.h"
 #import "RPDataSourceManager.h"
 
-#import "RPSportBoundaryProtocol.h"
+#import "RPSportsBoundaryProtocol.h"
 
 @implementation RPInteractor
 
-+ (Class <RPSportsBoundaryProtocol>)sportsFeedManager;
++ (id <RPSportsBoundaryProtocol>)sportsFeedManager;
 {
-    return (Class <RPSportsBoundaryProtocol>)[RPDataSourceManager class];
+    return (id <RPSportsBoundaryProtocol>)[[RPDataSourceManager alloc] init];
 }
 
 @end

@@ -12,6 +12,6 @@
 
 @interface RPInteractor : NSObject
 
-+ (Class <RPSportsBoundaryProtocol>)sportsFeedManager;
++ (id <RPSportsBoundaryProtocol>)sportsFeedManager;
 
 @end

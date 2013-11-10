@@ -12,6 +12,9 @@
 		0CDF4FEE17FE019F0048A1C1 /* RPSportsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF4FEC17FE019F0048A1C1 /* RPSportsFeedViewController.xib */; };
 		6694DAF600294FD29263C3C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 193577D9D5AB432CAA7E597F /* libPods.a */; };
 		C7D553BC182D9AB800C2A440 /* RPInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D553BB182D9AB800C2A440 /* RPInteractor.m */; };
+		C7DC215A183039AC00886946 /* RPMockDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DC2159183039AC00886946 /* RPMockDataSourceManager.m */; };
+		C7DC215C18303AF200886946 /* RPSportsFeedViewControllerTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DC215B18303AF200886946 /* RPSportsFeedViewControllerTesting.m */; };
+		C7DC215D18303B3100886946 /* RPSportsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF4FEB17FE019F0048A1C1 /* RPSportsFeedViewController.m */; };
 		CA6561A717FDDE9000285E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6561A617FDDE9000285E4A /* Foundation.framework */; };
 		CA6561A917FDDE9000285E4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6561A817FDDE9000285E4A /* CoreGraphics.framework */; };
 		CA6561AB17FDDE9000285E4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6561AA17FDDE9000285E4A /* UIKit.framework */; };
@@ -20,7 +23,6 @@
 		CA6561C217FDDE9000285E4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6561AA17FDDE9000285E4A /* UIKit.framework */; };
 		CA6561DE17FDDED300285E4A /* RPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6561D717FDDED300285E4A /* RPAppDelegate.m */; };
 		CA6561E017FDDED300285E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6561DC17FDDED300285E4A /* main.m */; };
-		CA6561E617FDDF0D00285E4A /* iOSArchitectureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6561E417FDDF0D00285E4A /* iOSArchitectureTests.m */; };
 		CA6561EA17FDDF3E00285E4A /* RPDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6561E917FDDF3E00285E4A /* RPDataSourceManager.m */; };
 		CA6561EE17FDE07300285E4A /* RPConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6561ED17FDE07300285E4A /* RPConnectionManager.m */; };
 		CA6561F417FDE30000285E4A /* RPParsingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6561F317FDE30000285E4A /* RPParsingManager.m */; };
@@ -47,7 +49,11 @@
 		C7CD5EC91803435800CA59D0 /* RPCommonDataSourceManagerDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCommonDataSourceManagerDefinitions.h; sourceTree = "<group>"; };
 		C7D553BA182D9AB800C2A440 /* RPInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPInteractor.h; sourceTree = "<group>"; };
 		C7D553BB182D9AB800C2A440 /* RPInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPInteractor.m; sourceTree = "<group>"; };
-		C7D553BD182D9C0400C2A440 /* RPSportBoundaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSportBoundaryProtocol.h; sourceTree = "<group>"; };
+		C7D553BD182D9C0400C2A440 /* RPSportsBoundaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSportsBoundaryProtocol.h; sourceTree = "<group>"; };
+		C7DC21551830354D00886946 /* RPDataSourceManagerInjection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPDataSourceManagerInjection.h; sourceTree = "<group>"; };
+		C7DC2158183039AC00886946 /* RPMockDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPMockDataSourceManager.h; sourceTree = "<group>"; };
+		C7DC2159183039AC00886946 /* RPMockDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPMockDataSourceManager.m; sourceTree = "<group>"; };
+		C7DC215B18303AF200886946 /* RPSportsFeedViewControllerTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSportsFeedViewControllerTesting.m; sourceTree = "<group>"; };
 		CA6561A317FDDE9000285E4A /* iOSArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6561A617FDDE9000285E4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA6561A817FDDE9000285E4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +66,6 @@
 		CA6561DB17FDDED300285E4A /* iOSArchitecture-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOSArchitecture-Prefix.pch"; sourceTree = "<group>"; };
 		CA6561DC17FDDED300285E4A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA6561E217FDDF0D00285E4A /* iOSArchitectureTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOSArchitectureTests-Info.plist"; sourceTree = "<group>"; };
-		CA6561E417FDDF0D00285E4A /* iOSArchitectureTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSArchitectureTests.m; sourceTree = "<group>"; };
 		CA6561E817FDDF3E00285E4A /* RPDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPDataSourceManager.h; sourceTree = "<group>"; };
 		CA6561E917FDDF3E00285E4A /* RPDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPDataSourceManager.m; sourceTree = "<group>"; };
 		CA6561EC17FDE07300285E4A /* RPConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPConnectionManager.h; sourceTree = "<group>"; };
@@ -124,9 +129,34 @@
 		C7D553B9182D9AA300C2A440 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				C7D553BD182D9C0400C2A440 /* RPSportBoundaryProtocol.h */,
+				C7D553BD182D9C0400C2A440 /* RPSportsBoundaryProtocol.h */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C7DC2154183034D100886946 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC21551830354D00886946 /* RPDataSourceManagerInjection.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C7DC21561830399A00886946 /* Mock Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC2158183039AC00886946 /* RPMockDataSourceManager.h */,
+				C7DC2159183039AC00886946 /* RPMockDataSourceManager.m */,
+			);
+			path = "Mock Classes";
+			sourceTree = "<group>";
+		};
+		C7DC21571830399A00886946 /* UIViewController Testing */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC215B18303AF200886946 /* RPSportsFeedViewControllerTesting.m */,
+			);
+			path = "UIViewController Testing";
 			sourceTree = "<group>";
 		};
 		CA65619A17FDDE9000285E4A = {
@@ -178,8 +208,9 @@
 		CA6561C517FDDE9000285E4A /* iOSArchitectureTests */ = {
 			isa = PBXGroup;
 			children = (
+				C7DC21561830399A00886946 /* Mock Classes */,
+				C7DC21571830399A00886946 /* UIViewController Testing */,
 				CA6561E117FDDF0D00285E4A /* Supporting Files */,
-				CA6561E317FDDF0D00285E4A /* Tests */,
 			);
 			path = iOSArchitectureTests;
 			sourceTree = "<group>";
@@ -216,6 +247,7 @@
 		CA6561DD17FDDED300285E4A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C7DC2154183034D100886946 /* Protocols */,
 				0CDF4FEA17FE019F0048A1C1 /* RPSportsFeedViewController.h */,
 				0CDF4FEB17FE019F0048A1C1 /* RPSportsFeedViewController.m */,
 				0CDF4FEC17FE019F0048A1C1 /* RPSportsFeedViewController.xib */,
@@ -229,14 +261,6 @@
 				CA6561E217FDDF0D00285E4A /* iOSArchitectureTests-Info.plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CA6561E317FDDF0D00285E4A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CA6561E417FDDF0D00285E4A /* iOSArchitectureTests.m */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		CA6561E717FDDF3100285E4A /* Data Source Manager */ = {
@@ -428,7 +452,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA6561E617FDDF0D00285E4A /* iOSArchitectureTests.m in Sources */,
+				C7DC215C18303AF200886946 /* RPSportsFeedViewControllerTesting.m in Sources */,
+				C7DC215A183039AC00886946 /* RPMockDataSourceManager.m in Sources */,
+				C7DC215D18303B3100886946 /* RPSportsFeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

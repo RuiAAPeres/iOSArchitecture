@@ -57,6 +57,10 @@ So please, if you think that something is fundamentaly wrong, or that could be i
 Versions
 ====================================
 
+**1.2**
+
+An object of type `id <RPSportsBoundaryProtocol>` can now the be inject into the `UIViewController`. By default it will be used `RPDataSourceManager`. This is specially useful for Unit Testing, as you can inject a mock one. I also added an example of how to do it on the test suite. The `RPDataSourceManager` is now used as an object, as well, versus a class (as it previously was).
+
 **1.1**
 
 The access to the Model, by the `UIViewControllers`, are now made by a Interactor object. Instead of returning a reference to the `RPDataSourceManager` Class (since we are using class methods), we return an abstract Class that conforms to a given protocol. You can see this see this strategy applied [here](http://www.confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years#!), the video is present by [Robert Martin](http://en.wikipedia.org/wiki/Robert_Cecil_Martin) aka Uncle Bob. 

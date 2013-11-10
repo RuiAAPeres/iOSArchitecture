@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RPDataSourceManagerInjection.h"
 
-@interface RPSportsFeedViewController : UIViewController
+@interface RPSportsFeedViewController : UIViewController <RPDataSourceManagerInjection>
 
 @end

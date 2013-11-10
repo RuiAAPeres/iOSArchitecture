@@ -13,7 +13,7 @@
 
 #pragma mark - RPSportBoundryProtocol Implementation
 
-+ (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock
+- (void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock
 {
     // TODO: This is the place to add rules on the data source we want to use:
     //       server, mock, cache, etc

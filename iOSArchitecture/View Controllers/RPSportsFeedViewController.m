@@ -8,21 +8,22 @@
 
 #import "RPSportsFeedViewController.h"
 #import "RPInteractor.h"
-#import "RPSportBoundaryProtocol.h"
-
-@interface RPSportsFeedViewController ()
-
-
-@end
+#import "RPSportsBoundaryProtocol.h"
 
 @implementation RPSportsFeedViewController
 
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
+@synthesize dataSourceManager;
+
+- (void)viewDidLoad
+{    
+    // If we haven't set the _dataSourceManager previsouly,  we will use the default one
+    // It's useful to set for testing purposes, for example.
+    if (!self.dataSourceManager)
+    {
+        self.dataSourceManager = (id <RPSportsBoundaryProtocol>)[RPInteractor sportsFeedManager];
+    }
     
-    Class sportsFeedManager = (Class <RPSportsBoundaryProtocol>)[RPInteractor sportsFeedManager];
-    [sportsFeedManager yahooSportsFeedWithCompletion:^(NSArray *sportsFeeds, NSError *error)
+    [self.dataSourceManager yahooSportsFeedWithCompletion:^(NSArray *sportsFeeds, NSError *error)
      {
          if (error)
          {
@@ -34,6 +35,7 @@
          }
          
      }];
+
 }
 
 

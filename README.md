@@ -33,7 +33,7 @@ You can see that when:
 Each project has it's own demons, so what I want with this sample project, is a way for iOS developers to have a reference for what they should **always** try to achieve:
 
 * Strive for small, simple, clean, **understandable** and maintainable classes.
-* Respect the Single Responsibility Principle.
+* Respect the [SOLID principles]("http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)").
 * Respect the DRY Principle.
 * Respect the 4 OOP principles: Encapsulation, Abstraction, Inheritance, Polymorphism.
 * **Create methods that do one thing and one thing only** (this is specially useful for Unit Testing).

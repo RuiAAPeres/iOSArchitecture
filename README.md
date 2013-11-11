@@ -59,7 +59,7 @@ Versions
 
 **1.2**
 
-An object of type `id <RPSportsBoundaryProtocol>` can now the be injected into the `RPSportsFeedViewController` (you can see this as he complies to the `RPDataSourceManagerInjection` protocol). By default it will be used `RPDataSourceManager`. This is specially useful for Unit Testing, as you can inject a mock one. I also added an example of how to do it on the test suite (check the `RPSportsFeedViewControllerTesting.m` and `RPMockDataSourceManager`). The `RPSportsBoundaryProtocol` is now expecting an object (as the method `-(void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock` is a ninstance one)
+An object of type `id <RPSportsBoundaryProtocol>` can now the be injected into the `RPSportsFeedViewController` (you can see this as he complies to the `RPDataSourceManagerInjection` protocol). By default it will be used `RPDataSourceManager`. This is specially useful for Unit Testing, as you can inject a mock one. I also added an example of how to do it on the test suite (check the `RPSportsFeedViewControllerTesting.m` and `RPMockDataSourceManager`). The `RPSportsBoundaryProtocol` is now expecting an object (as the method `-(void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock` is an instance one)
 ) versus a class, **although I am still weighting the pros and cons**.
 
 **1.1**

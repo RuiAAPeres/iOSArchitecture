@@ -11,6 +11,10 @@
 		0CDF4FED17FE019F0048A1C1 /* RPSportsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF4FEB17FE019F0048A1C1 /* RPSportsFeedViewController.m */; };
 		0CDF4FEE17FE019F0048A1C1 /* RPSportsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF4FEC17FE019F0048A1C1 /* RPSportsFeedViewController.xib */; };
 		6694DAF600294FD29263C3C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 193577D9D5AB432CAA7E597F /* libPods.a */; };
+		C764999318341F5A00CB868A /* RPNikeImagesBranding.m in Sources */ = {isa = PBXBuildFile; fileRef = C764999218341F5A00CB868A /* RPNikeImagesBranding.m */; };
+		C764999618341F6E00CB868A /* RPAdidasImagesBranding.m in Sources */ = {isa = PBXBuildFile; fileRef = C764999518341F6E00CB868A /* RPAdidasImagesBranding.m */; };
+		C764999B1834209A00CB868A /* RPBrandingCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = C764999A1834209A00CB868A /* RPBrandingCluster.m */; };
+		C764999F183421B600CB868A /* RPSportsFeedViewController+Branding.m in Sources */ = {isa = PBXBuildFile; fileRef = C764999E183421B600CB868A /* RPSportsFeedViewController+Branding.m */; };
 		C7D553BC182D9AB800C2A440 /* RPInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D553BB182D9AB800C2A440 /* RPInteractor.m */; };
 		C7DC215A183039AC00886946 /* RPMockDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DC2159183039AC00886946 /* RPMockDataSourceManager.m */; };
 		C7DC215C18303AF200886946 /* RPSportsFeedViewControllerTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DC215B18303AF200886946 /* RPSportsFeedViewControllerTesting.m */; };
@@ -46,6 +50,15 @@
 		0CDF4FEC17FE019F0048A1C1 /* RPSportsFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPSportsFeedViewController.xib; sourceTree = "<group>"; };
 		193577D9D5AB432CAA7E597F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3092457E7D9B444F9C2CB2D0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C764999118341F5A00CB868A /* RPNikeImagesBranding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPNikeImagesBranding.h; sourceTree = "<group>"; };
+		C764999218341F5A00CB868A /* RPNikeImagesBranding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNikeImagesBranding.m; sourceTree = "<group>"; };
+		C764999418341F6E00CB868A /* RPAdidasImagesBranding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPAdidasImagesBranding.h; sourceTree = "<group>"; };
+		C764999518341F6E00CB868A /* RPAdidasImagesBranding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPAdidasImagesBranding.m; sourceTree = "<group>"; };
+		C764999818341F9600CB868A /* RPImagesBrandingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPImagesBrandingProtocol.h; sourceTree = "<group>"; };
+		C76499991834209A00CB868A /* RPBrandingCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPBrandingCluster.h; sourceTree = "<group>"; };
+		C764999A1834209A00CB868A /* RPBrandingCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPBrandingCluster.m; sourceTree = "<group>"; };
+		C764999D183421B600CB868A /* RPSportsFeedViewController+Branding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RPSportsFeedViewController+Branding.h"; sourceTree = "<group>"; };
+		C764999E183421B600CB868A /* RPSportsFeedViewController+Branding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPSportsFeedViewController+Branding.m"; sourceTree = "<group>"; };
 		C7CD5EC91803435800CA59D0 /* RPCommonDataSourceManagerDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCommonDataSourceManagerDefinitions.h; sourceTree = "<group>"; };
 		C7D553BA182D9AB800C2A440 /* RPInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPInteractor.h; sourceTree = "<group>"; };
 		C7D553BB182D9AB800C2A440 /* RPInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPInteractor.m; sourceTree = "<group>"; };
@@ -106,6 +119,61 @@
 				0CDF4FE817FDF7F40048A1C1 /* RPYahooSportFeed.m */,
 			);
 			path = "Basic Classes";
+			sourceTree = "<group>";
+		};
+		C764998D18341E0400CB868A /* Branding */ = {
+			isa = PBXGroup;
+			children = (
+				C764998E18341E7300CB868A /* Branding Classes */,
+				C764998F18341E7300CB868A /* Branding Cluster */,
+			);
+			path = Branding;
+			sourceTree = "<group>";
+		};
+		C764998E18341E7300CB868A /* Branding Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C764999018341F4200CB868A /* Images Branding Classes */,
+			);
+			path = "Branding Classes";
+			sourceTree = "<group>";
+		};
+		C764998F18341E7300CB868A /* Branding Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				C76499991834209A00CB868A /* RPBrandingCluster.h */,
+				C764999A1834209A00CB868A /* RPBrandingCluster.m */,
+			);
+			path = "Branding Cluster";
+			sourceTree = "<group>";
+		};
+		C764999018341F4200CB868A /* Images Branding Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C764999718341F8400CB868A /* Protocol */,
+				C764999118341F5A00CB868A /* RPNikeImagesBranding.h */,
+				C764999218341F5A00CB868A /* RPNikeImagesBranding.m */,
+				C764999418341F6E00CB868A /* RPAdidasImagesBranding.h */,
+				C764999518341F6E00CB868A /* RPAdidasImagesBranding.m */,
+			);
+			path = "Images Branding Classes";
+			sourceTree = "<group>";
+		};
+		C764999718341F8400CB868A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C764999818341F9600CB868A /* RPImagesBrandingProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C764999C183421A600CB868A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C764999D183421B600CB868A /* RPSportsFeedViewController+Branding.h */,
+				C764999E183421B600CB868A /* RPSportsFeedViewController+Branding.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		C7CD5EC81803435800CA59D0 /* Constants */ = {
@@ -198,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				CA6561D517FDDED300285E4A /* App Delegate */,
+				C764998D18341E0400CB868A /* Branding */,
 				CA6561D817FDDED300285E4A /* Components */,
 				CA6561D917FDDED300285E4A /* Supporting Files */,
 				CA6561DD17FDDED300285E4A /* View Controllers */,
@@ -247,6 +316,7 @@
 		CA6561DD17FDDED300285E4A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C764999C183421A600CB868A /* Categories */,
 				C7DC2154183034D100886946 /* Protocols */,
 				0CDF4FEA17FE019F0048A1C1 /* RPSportsFeedViewController.h */,
 				0CDF4FEB17FE019F0048A1C1 /* RPSportsFeedViewController.m */,
@@ -437,13 +507,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C764999F183421B600CB868A /* RPSportsFeedViewController+Branding.m in Sources */,
+				C764999B1834209A00CB868A /* RPBrandingCluster.m in Sources */,
 				CA6561E017FDDED300285E4A /* main.m in Sources */,
 				CA6561F417FDE30000285E4A /* RPParsingManager.m in Sources */,
 				CA6561EE17FDE07300285E4A /* RPConnectionManager.m in Sources */,
+				C764999318341F5A00CB868A /* RPNikeImagesBranding.m in Sources */,
 				0CDF4FED17FE019F0048A1C1 /* RPSportsFeedViewController.m in Sources */,
 				0CDF4FE917FDF7F40048A1C1 /* RPYahooSportFeed.m in Sources */,
 				CA6561DE17FDDED300285E4A /* RPAppDelegate.m in Sources */,
 				C7D553BC182D9AB800C2A440 /* RPInteractor.m in Sources */,
+				C764999618341F6E00CB868A /* RPAdidasImagesBranding.m in Sources */,
 				CA6561EA17FDDF3E00285E4A /* RPDataSourceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

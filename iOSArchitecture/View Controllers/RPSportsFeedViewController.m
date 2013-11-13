@@ -10,6 +10,8 @@
 #import "RPInteractor.h"
 #import "RPSportsBoundaryProtocol.h"
 
+#import "RPSportsFeedViewController+Branding.h"
+
 @implementation RPSportsFeedViewController
 
 @synthesize dataSourceManager;
@@ -36,6 +38,8 @@
          
      }];
 
+    
+    [self brandViewController];
 }
 
 

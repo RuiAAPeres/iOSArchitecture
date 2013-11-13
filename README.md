@@ -61,7 +61,7 @@ Versions
 
 Added an example of how branding can be achieved and architected inside an iOS application. As explained, on the commit message, different strategies can be putted in place, depending on how you want the branding to behave. For example, some branding besides images, also change the overall layout of the UI (position of the elements on the screen). 
 
-In this case I use a class called `RPBrandingCluster` responsible for returning a `Class <RPImagesBrandingProtocol>` that is able to respond to certain messages (in this case related to how to deal with images). The use of a protocol + Class, makes it easier to use (as the class, in the end of the day, acts as a [Factory](http://en.wikipedia.org/wiki/Factory_method_pattern)) and flexibility to add, in the future, other brands. 
+In this case I use a class called `RPBrandingCluster` responsible for returning a `Class <RPImagesBrandingProtocol>` that is able to respond to certain messages (in this case related to how we deal with images). The use of a protocol + Class, makes it easier to use (as the class, in the end of the day, acts as a [Factory](http://en.wikipedia.org/wiki/Factory_method_pattern)) and flexibility to add, in the future, other brands. 
 
 **1.2**
 

@@ -10,7 +10,7 @@
 
 @protocol RPImagesBrandingProtocol;
 
-@interface RPBrandingCluster : NSObject
+@interface RPBrandingFactory : NSObject
 
 + (Class <RPImagesBrandingProtocol>)imageBrander;
 

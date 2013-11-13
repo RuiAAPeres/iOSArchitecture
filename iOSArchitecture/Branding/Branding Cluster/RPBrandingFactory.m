@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Rui Peres. All rights reserved.
 //
 
-#import "RPBrandingCluster.h"
+#import "RPBrandingFactory.h"
 #import "RPNikeImagesBranding.h"
 #import "RPAdidasImagesBranding.h"
 
-@implementation RPBrandingCluster
+@implementation RPBrandingFactory
 
 + (Class <RPImagesBrandingProtocol>)imageBrander
 {

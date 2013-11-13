@@ -8,14 +8,14 @@
 
 #import "RPSportsFeedViewController+Branding.h"
 
-#import "RPBrandingCluster.h"
+#import "RPBrandingFactory.h"
 #import "RPImagesBrandingProtocol.h"
 
 @implementation RPSportsFeedViewController (Branding)
 
 - (void)brandViewController
 {
-    Class<RPImagesBrandingProtocol> imageBranding = [RPBrandingCluster imageBrander];
+    Class<RPImagesBrandingProtocol> imageBranding = [RPBrandingFactory imageBrander];
     
     __unused UIImage *smallLogo = [imageBranding smallLogoImage];
     __unused UIImage *bigLogo = [imageBranding bigLogoImage];

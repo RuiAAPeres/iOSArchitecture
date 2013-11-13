@@ -57,6 +57,14 @@ So please, if you think that something is fundamentaly wrong, or that could be i
 Versions
 ====================================
 
+**1.3**
+
+Added an example on how branding can be achieved and architected inside an iOS application. As explained on the commit message, different strategies can be putted in place, depending on how you want to Brand. For example, some branding besides images, also change the overall layout of the UI (position of the elements on the screen). 
+
+In this case I use a class called `RPBrandingCluster` responsible for returning a `Class` that is able to respond to certain messages (in this case a `Class` that complies with the `RPImagesBrandingProtocol` protocol). The use of a protocol + Class, makes it easier to use (as the class in the end of the day acts as a Factory) and flexibility to add, in the future, other brands. 
+
+**.
+
 **1.2**
 
 An object of type `id <RPSportsBoundaryProtocol>` can now the be injected into the `RPSportsFeedViewController` (you can see this as he complies to the `RPDataSourceManagerInjection` protocol). By default it will be used `RPDataSourceManager`. This is specially useful for Unit Testing, as you can inject a mock one. I also added an example of how to do it on the test suite (check the `RPSportsFeedViewControllerTesting.m` and `RPMockDataSourceManager`). The `RPSportsBoundaryProtocol` is now expecting an object (as the method `-(void)yahooSportsFeedWithCompletion:(RPYahooSportsCompletionBlock)completionBlock` is an instance one)

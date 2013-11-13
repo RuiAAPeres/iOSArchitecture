@@ -144,8 +144,7 @@
 				C76499991834209A00CB868A /* RPBrandingFactory.h */,
 				C764999A1834209A00CB868A /* RPBrandingFactory.m */,
 			);
-			name = "Branding Factory";
-			path = "Branding Cluster";
+			path = "Branding Factory";
 			sourceTree = "<group>";
 		};
 		C764999018341F4200CB868A /* Images Branding Classes */ = {

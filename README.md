@@ -9,6 +9,11 @@ The project itself is quite simple:
 * Parsing it
 * Returning the results to the `UIViewController`, where then they can be showed.
 
+There is a Branding part, where I expose a strategy to deal with this. So:
+
+* We have two brands: Nike and Adidas.
+* Depending on being on Debug or not, we will choose the right one to be used.
+
 There are many ways of doing it, although I think mine has some advantages.
 
 Requirements

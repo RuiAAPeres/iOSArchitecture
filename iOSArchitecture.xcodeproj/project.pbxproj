@@ -125,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				C764998E18341E7300CB868A /* Branding Classes */,
-				C764998F18341E7300CB868A /* Branding Cluster */,
+				C764998F18341E7300CB868A /* Branding Factory */,
 			);
 			path = Branding;
 			sourceTree = "<group>";
@@ -138,12 +138,13 @@
 			path = "Branding Classes";
 			sourceTree = "<group>";
 		};
-		C764998F18341E7300CB868A /* Branding Cluster */ = {
+		C764998F18341E7300CB868A /* Branding Factory */ = {
 			isa = PBXGroup;
 			children = (
 				C76499991834209A00CB868A /* RPBrandingFactory.h */,
 				C764999A1834209A00CB868A /* RPBrandingFactory.m */,
 			);
+			name = "Branding Factory";
 			path = "Branding Cluster";
 			sourceTree = "<group>";
 		};

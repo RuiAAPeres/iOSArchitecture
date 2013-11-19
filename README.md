@@ -15,8 +15,8 @@ There is a Branding part, where I expose a strategy to deal with this. So:
 * Depending on being on Debug or not, we will choose the right one to be used.
 
 There are many ways of doing it, although I think mine has some advantages.
-------------------------------------
 
+------------------------------------
 Requirements
 ============
 

@@ -31,7 +31,10 @@ static NSString *const kYahooSportsEndPoint = @"http://news.yahoo.com/rss/sports
                 The UIViewController shouldn't care about what an NSError actually is, but inform the user
                 of what happened with a proper error message.
              */
-            completionBlock(nil,error);
+            [[NSOperationQueue mainQueue] addOperationWithBlock: ^
+             {
+                 completionBlock(nil,error);
+             }];
         }
         else
         {

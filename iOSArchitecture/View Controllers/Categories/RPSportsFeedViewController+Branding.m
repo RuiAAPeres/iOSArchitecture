@@ -20,7 +20,6 @@
     __unused UIImage *smallLogo = [imageBranding smallLogoImage];
     __unused UIImage *bigLogo = [imageBranding bigLogoImage];
     __unused UIImage *defaultBackground = [imageBranding defaultBackgroundImage];
-
 }
 
 @end

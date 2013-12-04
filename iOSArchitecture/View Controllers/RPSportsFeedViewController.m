@@ -16,8 +16,10 @@
 
 @synthesize dataSourceManager;
 
-- (void)viewDidLoad
-{    
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
     // If we haven't set the _dataSourceManager previsouly,  we will use the default one
     // It's useful to set for testing purposes, for example.
     if (!self.dataSourceManager)

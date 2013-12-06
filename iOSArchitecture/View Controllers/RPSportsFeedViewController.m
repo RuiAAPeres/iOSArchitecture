@@ -37,9 +37,7 @@
          {
              // TODO: Handle a successful result;
          }
-         
      }];
-
     
     [self brandViewController];
 }

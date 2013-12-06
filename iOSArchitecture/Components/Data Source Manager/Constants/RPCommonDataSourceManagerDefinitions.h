@@ -7,4 +7,3 @@
 //
 
 typedef void(^RPYahooSportsCompletionBlock)(NSArray *sportsFeeds, NSError *error);
-

@@ -265,10 +265,10 @@
 		CA6561AC17FDDE9000285E4A /* iOSArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				CA6561D917FDDED300285E4A /* Supporting Files */,
 				CA6561D517FDDED300285E4A /* App Delegate */,
 				C764998D18341E0400CB868A /* Branding */,
 				CA6561D817FDDED300285E4A /* Components */,
-				CA6561D917FDDED300285E4A /* Supporting Files */,
 				CA6561DD17FDDED300285E4A /* View Controllers */,
 			);
 			path = iOSArchitecture;
